@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+    <!-- ini head  -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Judul Halaman</title>
+    <link rel="stylesheet" href="style.css"> <!-- Hubungkan ke file CSS -->
+</head>
+    <!-- ini body -->
+<body>
+    <!-- ini header -->
+    <header>
+        <h1>Your Trusted Travel Agent's </h1>
+
+        <nav class="container">
+            
+            
+                <div class="main item"><a href="#Home">Home</a></div>
+                <div><a href="#Our Packages Section">Our Packages Section</a></div>
+                <div><a href="#Call Action Section">Call Action Section</a></div>
+
+        </nav>
+    </header>
+    <!-- ini main + article -->
+    <main>
+        <article>
+        <section id="home">
+            <h2>Selamat Datang</h2>
+            <p>Ini adalah paragraf pengantar di halaman utama.</p>
+        </section>
+
+        <section id="about">
+            <h2>Tentang Kami</h2>
+            <p>Informasi tentang perusahaan atau individu yang menjalankan situs ini.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Kontak</h2>
+            <p>Detail kontak atau formulir untuk menghubungi pemilik situs.</p>
+        </section>
+    </article>
+    </main>
+    <!-- ini form -->
+    
+    <form action="/submit_form" method="post">
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname" required><br><br>
+        
+        <label for="lname">Last Name:</label><br>
+        <input type="text" id="lname" name="lname" required><br><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+        
+        <label for="gender">Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+        
+        <label for="country">Country:</label><br>
+        <select id="country" name="country">
+            <option value="usa">USA</option>
+            <option value="canada">Canada</option>
+            <option value="australia">Australia</option>
+        </select><br><br>
+        
+        <label for="bio">Biography:</label><br>
+        <textarea id="bio" name="bio" rows="4" cols="50"></textarea><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+
+    
+
+    <!-- ini footer -->
+    <footer>
+        <p>&copy; jufri sani  ardiansyah.</p>
+    </footer>
+    <!--ini file javascript -->
+    <script src="scripts.js"></script> <!-- Hubungkan ke file JavaScript -->
+</body>
+</html>
