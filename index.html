@@ -13,74 +13,78 @@
     <!-- ini header -->
     <header>
         <h1>Your Trusted Travel Agent's </h1>
-
+       <div> ><p> Your happiness is our happiness</p></div>
+    </header>
         <nav class="container">
             
-            
-                <div class="main item"><a href="#Home">Home</a></div>
-                <div><a href="#Our Packages Section">Our Packages Section</a></div>
-                <div><a href="#Call Action Section">Call Action Section</a></div>
+                <div  class="main item"  href="#Home">Home </div>
+                <div class="main item"  href="#Our Packages Section">Our Packages Section</div>
+                <div  class="main iten"  href="#Call Action Section">Call Action Section </div>
 
         </nav>
     </header>
     <!-- ini main + article -->
     <main>
-        <article>
-        <section id="home">
-            <h2>Selamat Datang</h2>
-            <p>Ini adalah paragraf pengantar di halaman utama.</p>
-        </section>
-
-        <section id="about">
-            <h2>Tentang Kami</h2>
-            <p>Informasi tentang perusahaan atau individu yang menjalankan situs ini.</p>
-        </section>
-
-        <section id="contact">
-            <h2>Kontak</h2>
-            <p>Detail kontak atau formulir untuk menghubungi pemilik situs.</p>
-        </section>
+        <article class="main title"
+            
+        
     </article>
     </main>
     <!-- ini form -->
     
     <form action="/submit_form" method="post">
-        <label for="fname">First Name:</label><br>
-        <input type="text" id="fname" name="fname" required><br><br>
+        <div class="form-group">
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname" required>
+        </div>
         
-        <label for="lname">Last Name:</label><br>
-        <input type="text" id="lname" name="lname" required><br><br>
+        <div class="form-group">
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname" required>
+        </div>
         
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email" required><br><br>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
         
-        <label for="password">Password:</label><br>
-        <input type="password" id="password" name="password" required><br><br>
+        <div class="form-group">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+        </div>
         
-        <label for="gender">Gender:</label><br>
-        <input type="radio" id="male" name="gender" value="male">
-        <label for="male">Male</label><br>
-        <input type="radio" id="female" name="gender" value="female">
-        <label for="female">Female</label><br><br>
+        <div class="form-group">
+            <label for="gender">Gender:</label>
+            <div class="radio-group">
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+            </div>
+        </div>
         
-        <label for="country">Country:</label><br>
-        <select id="country" name="country">
-            <option value="usa">USA</option>
-            <option value="canada">Canada</option>
-            <option value="australia">Australia</option>
-        </select><br><br>
+        <div class="form-group">
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+                <option value="indonesia">Indonesia</option>
+                <option value="malaysia">Malaysia</option>
+                <option value="australia">Australia</option>
+            </select>
+        </div>
         
-        <label for="bio">Biography:</label><br>
-        <textarea id="bio" name="bio" rows="4" cols="50"></textarea><br><br>
+        <div class="form-group">
+            <label for="bio">Biography:</label>
+            <textarea id="bio" name="bio" rows="4" cols="50"></textarea>
+        </div>
         
-        <input type="submit" value="Submit">
+        <div class="form-group">
+            <input type="submit" value="Submit">
+        </div>
     </form>
-
-    
 
     <!-- ini footer -->
     <footer>
-        <p>&copy; jufri sani  ardiansyah.</p>
+        <p>&copy; mosqu.</p>
     </footer>
     <!--ini file javascript -->
     <script src="scripts.js"></script> <!-- Hubungkan ke file JavaScript -->
